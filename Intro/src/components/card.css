@@ -1,0 +1,17 @@
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(91, 91, 91);
+    color: black;
+    padding: 50px;
+    border-radius: 20px;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    margin-bottom: 60px;
+}

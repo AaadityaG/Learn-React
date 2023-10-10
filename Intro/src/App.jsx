@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 import {Head, Imges} from "./components/Heading";
+import Card from "./components/card";
+import Cl from "./components/clock";
 function App() {
   
-  let h1 = "Aditya"; 
-  let h2 = "Hello"; 
-  let h3 = "Hello, Aditya"; 
-  let obj = {color:"red"};
+  // let h1 = "Aditya"; 
+  // let h2 = "Hello"; 
+  // let h3 = "Hello, Aditya"; 
+  // let obj = {color:"red"};
 
   return (
     <>
@@ -17,10 +19,12 @@ function App() {
       <p>multiplication of 2 and 3 = {2 * 3}</p> */}
       {/* <h1 className="heading" style={obj}>Click on imgae</h1> */}
 
-      <Head></Head>
+      {/* <Head></Head>
       <Imges></Imges>
       <Imges></Imges>
-      <Imges></Imges>
+      <Imges></Imges> */}
+      {/* <Card/> */}
+      <Cl/>
     </>
   );
 }
